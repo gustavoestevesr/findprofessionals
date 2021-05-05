@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.list-cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.card {
+margin: 20px;
+border-radius: 10px;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.container {
+text-align: center;
+background-color: rgb(0,123,255);
+color: white;
+width: 100%;
+padding: 20px;
+}
+
+.row{
+padding: 20px;
+color: white;
+text-align: center;
+background-color: rgb(0,123,255);
+width: 100%;
+border-radius: 5px;
+}   
+
+.card-img-top {
+animation: fadeInAnimation ease 5s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+a {
+margin-top: 20px;
+margin-bottom: 20px;
+color: black;
+}
+
+@keyframes fadeInAnimation {
+0% {
+    opacity: 0;
+}
+
+100% {
+    opacity: 1;
+}
+}
+
+@media (min-width: 768px) {
+    .carouselExampleCaptions {
+        height: 450px;
+    }
+
+    .carousel-inner {
+        height: 450px;
+    }
+
+    .carousel-item {
+        height: 450px;
+    }
+}
+
+.card {
+    width: 25rem;
+}
+
+hr{
+    width: 20%;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+#carouselExampleCaptions{
+    margin-bottom: 25px;
+}
